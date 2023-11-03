@@ -1,0 +1,76 @@
+.navbar-brand{
+    padding: 0px 0px 0px 145px;
+}
+
+.wrap {
+    margin: 50px auto;
+    width: 70%;
+    border: 3px solid rgba(234, 12, 30, 0.185);
+    border-radius: 15px;
+    padding: 20px 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.wrap h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.center {
+    padding: 9%;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-box{
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.submitBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitBtn1 {
+    display: flex;
+    justify-content: flex-start;
+    color: aquamarine;
+}
+
+form {
+    margin: 30px auto;
+    width: 60%;
+}
+.btn1{
+    background-color: rgb(101, 68, 209);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 3px solid black;
+    box-shadow: 4px 3px black;
+}
+
+.btn1:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.btn1:hover{
+    opacity: 0.80;
+}
